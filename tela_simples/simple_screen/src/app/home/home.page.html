@@ -1,0 +1,66 @@
+<!--<ion-content [fullscreen]="true">
+    <ion-header [translucent]="true">
+        <ion-toolbar>
+            <ion-title>
+                Login
+            </ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <div id="container">
+        <ion-list>
+            <ion-item>
+                <ion-label color="primary" position="floating">Usuário</ion-label>
+                <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="primary" inputmode="text" placeholder="Informe seu nome de usuário" required="true">
+                    <ion-icon name="person" color="primary" slot="end"></ion-icon>
+                    &nbsp;&nbsp;
+                </ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label color="primary" position="floating">Senha</ion-label>
+                <ion-input autocorrect="on" autofocus="on" clearInput="true" clearOnEdit="true" color="primary" inputmode="text" type="password" placeholder="Informe sua senha de acesso" required="true">
+                    <ion-icon name="key" color="primary" slot="end"></ion-icon>
+                    &nbsp;&nbsp;
+                </ion-input>
+            </ion-item>
+        </ion-list>
+        <ion-grid>
+            <ion-row>
+                <ion-col class="ion-align-self-center">
+                    ion-col [center]
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+</ion-content>-->
+<ion-content>
+    <div class="flex-center">
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>Efetuar login</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-item>
+                    <ion-label color="primary" position="floating">Usuário</ion-label>
+                    <ion-input inputmode="text" placeholder="Nome de usuário" required="true">
+                        <ion-icon name="person" color="primary" slot="end"></ion-icon>
+                        &nbsp;&nbsp;
+                    </ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label color="primary" position="floating">Senha</ion-label>
+                    <ion-input inputmode="text" type="password" placeholder="Senha de acesso" required="true">
+                        <ion-icon name="key" color="primary" slot="end"></ion-icon>
+                        &nbsp;&nbsp;
+                    </ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-checkbox color="primary" slot="start" mode="ios"></ion-checkbox>
+                    <ion-label>Permanecer conectado</ion-label>
+                </ion-item>
+                <ion-button class="space" color="dark" fill="clean" size="full" shape="round">Esqueceu sua senha?</ion-button>
+                <ion-button color="primary" size="full" shape="round">Login</ion-button>
+                <ion-button class="space" color="dark" fill="clean" size="full" shape="round">Ainda não possui uma conta?<br>Registre-se</ion-button>
+            </ion-card-content>
+        </ion-card>
+    </div>
+</ion-content>
